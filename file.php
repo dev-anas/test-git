@@ -14,4 +14,10 @@ class Test
         $this->total = $a + $b;
         return $this;
     }
+
+    public function test3(int $a, int $b)
+    {
+        $this->total = $a + $b;
+        return $this;
+    }
 }
